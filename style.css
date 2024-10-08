@@ -36,8 +36,8 @@
 
 #images {
   border: 1px solid black;
-  width: 800px;
-  height: 500px;
+  width: 600px;
+  height: 400px;
   transition: 1s;
 }
 
@@ -58,6 +58,8 @@
   justify-content: center;
   margin: 10px 20px;
   align-items: center;
+  opacity: 0;
+  transition: 1s;
 }
 
 .station {

@@ -196,9 +196,9 @@ document.addEventListener("DOMContentLoaded", function () {
       lineButton.addEventListener("click", async function createStationMap() {
         stationButtonContainer.innerText = "";
         image.style.opacity = 0;
-
+        image.style.transform = "scale(2, 2)";
         await delay(1000);
-
+        stationButtonContainer.style.opacity = 1;
         image.style.display = "none";
         for (const station of allLine[line].sta) {
           const pin = document.createElement("div");
